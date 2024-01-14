@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80vh;
+    position: relative;
+}
+.black{
+    background-color: black;
+    height: 80vh;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    height: 100px;
+}
+nav img{
+    z-index: 10;
+    position: relative;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    position: relative;
+    color: white;
+    gap: 12px;
+    padding: 20px;
+}
+.buttons{
+    gap: 0 10px;
+}
+.buttons #lang{
+    padding: 5px;
+    color: white;
+    background-color: transparent;
+    border: white solid 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.buttons #signin{
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border: red solid 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cont> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.cont> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.cont> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+    height: 10px;
+    background-color: rgb(20, 20, 20);
+}
+.mail{
+    display: flex;
+    margin:auto;
+    justify-content:center;
+    align-items: center;
+    height: 70px;
+    width: 500px;
+    gap: 8px;
+}
+.mail input{
+    border: 1px solid rgba(225, 240, 220, 0.6);
+    background-color: rgba(36, 39, 35, 0.7);
+    color: white;
+    border-radius: 3px;
+    padding: 9px 75px 10px 15px;
+    outline: thick;
+}
+.mail button{
+    padding: 9px 25px 10px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+.mail input::placeholder{
+color: rgba(212, 201, 201, 0.794);
+}
+
+button:hover{
+    cursor: pointer;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    width: 70vw;
+    height: 450px;
+}
+.first .first_img .first_image{
+position: relative;
+width: 35vw;
+z-index: 10;
+}
+.first .first_img .first_video{
+    position:absolute;
+    width: 348px;
+    top: 612px;
+    right: 263px;
+}
+.first div{
+    color: white;
+}
+.first .enjoy{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.first .enjoy>:nth-child(1){
+font-size: 30px;
+font-weight: bold;
+}
+.first .enjoy>:nth-child(2){
+font-size: 20px;
+}
+/* Second */
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    width: 70vw;
+    height: 420px;
+    color: white;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+.second .download>:nth-child(1){
+font-size: 30px;
+font-weight: bold;
+}
+.second .download>:nth-child(2){
+font-size: 20px;
+}
+
+/* Third */
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    width: 70vw;
+    height: 420px;
+    color: white;
+}
+.watch{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.third .third_img_vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.third .third_image{
+    position: relative;
+    width: 35vw;
+    z-index: 10;
+}
+.third  .third_video{
+position: absolute;
+width: 348px;
+left: 670px;
+height: 240px;
+}
+.third .watch>:nth-child(1){
+font-size: 30px;
+font-weight: bold;
+}
+.third .watch>:nth-child(2){
+font-size: 20px;
+}
+/* Fourth */
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    width: 70vw;
+    height: 420px;
+    color: white;
+}
+.kids{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.fourth .kids>:nth-child(1){
+font-size: 30px;
+font-weight: bold;
+}
+.fourth .kids>:nth-child(2){
+font-size: 20px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:15px 0 ;
+    gap: 20px;
+}
+.faq h2{
+    color: white;
+    
+}
+.faq .questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin:15px;
+}
+.faq .q1{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(187, 184, 184, 0.5);
+    height: 37px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(233, 227, 227, 0.5);
+}
+.faq .q1 span{
+    padding: 11px 5px;
+}
+
+.faq .q2{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(187, 184, 184, 0.5);
+    height: 37px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(233, 227, 227, 0.5);
+}
+.faq .q2 span{
+    padding: 11px 5px;
+}
+
+.faq .q3{
+    background-color: rgba(187, 184, 184, 0.5);
+    color: white;
+    height: 37px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    border: 1px solid rgba(233, 227, 227, 0.5);
+}
+.faq .q3 span{
+    padding: 11px 5px;
+}
+
+.faq .q4{
+    background-color: rgba(187, 184, 184, 0.5);
+    color: white;
+    border: 1px solid rgba(233, 227, 227, 0.5);
+    height: 37px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.faq .q4 span{
+    padding: 11px 5px;
+}
+
+i{
+    color: black;
+    font-size: 28px;
+}
